@@ -90,13 +90,17 @@ function questions() {
       
       questions()
         .then(function(answers) {
-          const readme = generateFile(answers);
+          const input = generateFile(answers);
       
        
-          return writeFileAsync("README.md", readme);
+          return fs.writeFile("README.md", input, (err)=>{
+            if (err){
+              console.log(err);
+            }
+          });
         })
         .then(function() {
-          console.log(" README.md has been created!");
+          console.log(" README.md has been generated");
         })
         .catch(function(err) {
           console.log(err);
