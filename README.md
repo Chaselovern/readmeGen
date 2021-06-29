@@ -26,3 +26,5 @@
       ## Questions
       * For additional help or questions about collaboration, please reach out to chaseLovern@gmail.com
       * Follow me on Github at [chaseLovern](http://github.com/chaseLovern)
+      
+      ![2021-06-28 21-42-53](https://user-images.githubusercontent.com/82298315/123735325-3ef88f80-d85c-11eb-91cb-16637f1540d3.gif)
